@@ -1,1 +1,1 @@
-web: node cinemaWs.js.js
+web: node dist/cinemaWs.js

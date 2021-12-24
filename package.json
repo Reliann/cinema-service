@@ -14,11 +14,11 @@
   "author": "rell",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.24.0",
-    "cors": "2.8.5",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "jsonfile": "^6.1.0",
-    "mongoose": "6.0.12"
+    "mongoose": "^6.0.12"
   },
   "engines": {
     "node": "14.18.0"

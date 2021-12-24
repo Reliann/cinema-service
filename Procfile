@@ -1,1 +1,1 @@
-web:node ./cinemaWs.js
+web:node ./cinemaWS.js

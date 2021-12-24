@@ -6,7 +6,7 @@ const usersController = require('./controllers/usersController')
 const membersController = require('./controllers/membersController')
 const moviesController = require('./controllers/moviesController')
 const app = express()
-// node cinemaWs.js to init
+// node cinemaWS.js to init
 const corsOptions ={
     origin:'http://localhost:3000', 
     credentials:true,                   //access-control-allow-credentials:true

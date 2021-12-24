@@ -2,9 +2,9 @@
   "name": "cinema-service",
   "version": "1.0.0",
   "description": "This example is so cool.",
-  "main": "cinemaWs.js",
+  "main": "cinemaWS.js",
   "scripts": {
-    "start": "node cinemaWs.js",
+    "start": "node cinemaWS.js",
     "heroku-postbuild": "cd my-app && npm install --only=dev && npm install && npm run build"
   },
   "keywords": [

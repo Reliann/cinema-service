@@ -6,7 +6,7 @@
     "main": "cinemaWs.js",
     "scripts": {
         "start": "cinemaWs.js",
-        "heroku-postbuild": "cd my-app && npm install --only=dev && npm install && npm run build"
+        "heroku-postbuild": "cd my-app && npm install && npm run build"
     },
     "keywords": [
       "example",

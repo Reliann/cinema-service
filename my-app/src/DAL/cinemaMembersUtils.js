@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const URLtoMembers = 'http://localhost:8000/api'
+const URLtoMembers = `http://localhost:${process.env.PORT}/api`
 
 const getMembers = async () =>{
     const resp = await axios.get(`${URLtoMembers}/members`)

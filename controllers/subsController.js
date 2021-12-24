@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const subsBl = require('../Bls/subsBl')
+const subsBl = require('../BLs/subsBl')
 
 router.route('/movies').get(async (req, res)=>{
     const movies = await subsBl.getFullMoviesData()

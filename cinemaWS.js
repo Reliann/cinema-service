@@ -1,5 +1,8 @@
+console.log("starting...")
 const express = require('express')
+console.log("express imported")
 const cors = require('cors')
+console.log("cors imported")
 require('./config/DB')
 const subsController = require('./controllers/subsController')
 const usersController = require('./controllers/usersController')

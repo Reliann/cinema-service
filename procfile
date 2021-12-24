@@ -1,1 +1,1 @@
-web: node cinemaWs.js
+web:npm start

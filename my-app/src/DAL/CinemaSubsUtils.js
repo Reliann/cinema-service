@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const cinemaURL = `http://localhost:${process.env.PORT}/api`
+const cinemaURL = `https://localhost/api`
 
 const getFullMoviesData= async()=>{
     const resp = await axios.get(`${cinemaURL}/subs/movies`)

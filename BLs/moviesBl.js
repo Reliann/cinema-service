@@ -1,6 +1,7 @@
 const axios = require('axios')
 
-const URLtoMovies = 'http://localhost:8001/movies'
+const URLtoMovies = `${prosses.env.SUBS_URL}/movies` || 'http://localhost:8001/members'
+
 
 const addNewMovie = async (data)=>{
     const resp = await axios.post(`${URLtoMovies}`,data)

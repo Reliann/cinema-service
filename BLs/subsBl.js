@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-const URLtoSubs = 'http://localhost:8001/subscriptions'
+const URLtoSubs = `${prosses.env.SUBS_URL}/subscriptions` || 'http://localhost:8001/subscriptions'
 
 const getFullMoviesData = async ()=>{
     const resp = await axios.get(`${URLtoSubs}/movies`)

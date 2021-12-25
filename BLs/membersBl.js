@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-const URLtoMembers = 'http://localhost:8001/members'
+const URLtoMembers =`${prosses.env.SUBS_URL}/members` || 'http://localhost:8001/members'
 
 const getAllMembers = async ()=>{
     const resp = await axios.get(`${URLtoMembers}`)

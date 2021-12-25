@@ -9,5 +9,15 @@
     "createMovies": true,
     "deleteMovies": true,
     "updateMovies": true
-  }
+  },
+  "61c72f28fbefc79d39865fe4":{
+    "manageUsers": false,
+    "viewSubscriptions": true,
+    "createSubscriptions": false,
+    "deleteSubscriptions": false,
+    "updateSubscriptions": false,
+    "viewMovies": true,
+    "createMovies": false,
+    "deleteMovies": false,
+    "updateMovies": false
 }

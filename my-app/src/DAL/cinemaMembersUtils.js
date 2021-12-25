@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const URLtoMembers = `https://localhost/api`
+const URLtoMembers = `/api`
 const getMembers = async () =>{
     const resp = await axios.get(`${URLtoMembers}/members`)
     return resp.data

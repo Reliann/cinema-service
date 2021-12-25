@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-const URLtoMovies = `${prosses.env.SUBS_URL}/movies` || 'http://localhost:8001/members'
+const URLtoMovies = `${process.env.SUBS_URL}/movies` || 'http://localhost:8001/members'
 
 
 const addNewMovie = async (data)=>{

@@ -8,13 +8,13 @@ const moviesController = require('./controllers/moviesController')
 const app = express()
 // node cinemaWS.js to init
 const corsOptions ={
-    origin:'https://localhost', 
+    origin:'http://localhost:3000', 
     credentials:true,                   //access-control-allow-credentials:true
     optionSuccessStatus:200,
     methods: "GET,PUT,POST,DELETE"
 }
  
-app.use(cors(corsOptions))
+//app.use(cors(corsOptions))
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));

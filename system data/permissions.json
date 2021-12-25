@@ -20,4 +20,5 @@
     "createMovies": false,
     "deleteMovies": false,
     "updateMovies": false
+  }
 }

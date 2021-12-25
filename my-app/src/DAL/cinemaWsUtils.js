@@ -1,5 +1,5 @@
 import axios from 'axios'
-const cinemaURL = `https://localhost:${process.env.PORT}/api`
+const cinemaURL = `https://localhost/api`
 
 const authUser = async (username, password)=>{
     const resp = await axios.post(`${cinemaURL}/users/auth`, {username:username, password:password})
